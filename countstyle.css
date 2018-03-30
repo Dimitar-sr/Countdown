@@ -1,0 +1,73 @@
+body{
+    background: rgb(8, 62, 112);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+
+h1{
+    color: #fff;
+    text-align: center;
+    font-size: 4rem;
+    letter-spacing: 1rem;
+}
+
+#del-countdown{
+    width: 70vw;
+    margin: 15% auto;
+}
+
+#clock span{
+    float: left;
+    text-align: center;
+    font-size: 5rem;
+    margin: 0 2%;
+    color: #fff;
+    padding: 1rem;
+    width: 20%;
+    border-radius: 1.3rem;
+    box-sizing: border-box;
+}
+
+#clock span:nth-child(1){
+    background: #fa5559;
+}
+
+#clock span:nth-child(2){
+    background: #182675;
+}
+
+#clock span:nth-child(3){
+    background: #055a1e;
+}
+
+#clock span:nth-child(4){
+    background: #beb205;
+}
+
+#clock after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#units span{
+    float: left;
+    width: 24%;
+    text-align: center;
+    margin-top: 2rem;
+    color: #ddd;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 1px rgba(10, 10, 10, 0.7);
+}
+
+span.turn{
+    animation: turn 0.7s ease forwards;
+}
+
+@keyframes turn{
+    0%{transform: rotateX(0deg)}
+    100%{transform: rotateX(360deg)}
+
+}
