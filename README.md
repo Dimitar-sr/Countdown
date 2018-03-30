@@ -1,3 +1,3 @@
 # Countdown
 
-Countdown timer to major event/happening.
+Countdown timer to major event / happening.
